@@ -71,7 +71,7 @@ window.addEventListener("load", function () {
     }
 
     function updateLinkColor() {
-        var secs = sections.map(o => document.querySelector(o.id));
+        var secs = sections.map(o => document.querySelector(o.id)).filter(Boolean);
         var links = document.querySelector("#navv").querySelectorAll("a");
         for (var i = 0; i < links.length; i++) {
             links[i].classList.remove("acti");
