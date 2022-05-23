@@ -12,13 +12,13 @@ var sections = [
         id: "#cc-m-11585987877"
     },
     {
-        name: "Preise",
+        name: "Kunden",
         id: "#cc-m-11585988177"
     },
-    {
+    /*{
         name: "Kunden",
         id: "#cc-m-11658219277"
-    }
+    }*/
 ];
 var editPage = true;
 window.addEventListener("load", function () {
