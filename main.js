@@ -33,7 +33,7 @@ window.addEventListener("load", function () {
     //document.querySelector("#cc-m-11585985477").querySelector("a").href="javascript:show(3);";
 
     document.querySelector("#cc-website-logo img").classList.add("visi");
-    var divs = document.querySelectorAll(".cc-m-gallery-cool-item, .thumb_sq3");
+    var divs = document.querySelectorAll(".cc-m-gallery-cool-item, .cc-m-gallery-stack-item, .thumb_sq3");
     for (var i = 0; i < divs.length; i++) {
         var d = divs[i];
         var img = d.querySelector("img");
